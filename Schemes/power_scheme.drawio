@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" modified="2023-06-24T16:23:24.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kT6FLpz6mwSEM95XZIzo" version="21.5.0" type="device">
+  <diagram name="Page-1" id="BuhWQq6pRjTXZospVbEJ">
+    <mxGraphModel dx="1094" dy="1734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aTokCerhoME2Jnov8dHB-1" value="POWER SCHEM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" parent="1" vertex="1">
+          <mxGeometry x="220" y="-30" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-2" value="WATER PUMP&lt;br&gt;(12 V)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-3" value="LORA&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="280" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-4" value="MICROCONTROLLER" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="210" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-5" value="TEMP SENS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="390" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-6" value="FAN&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="135" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-7" value="WATER SENSOR(humidity)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="330" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.029;entryY=0.62;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aTokCerhoME2Jnov8dHB-8" target="aTokCerhoME2Jnov8dHB-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="aTokCerhoME2Jnov8dHB-8" target="aTokCerhoME2Jnov8dHB-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aTokCerhoME2Jnov8dHB-8" target="aTokCerhoME2Jnov8dHB-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="aTokCerhoME2Jnov8dHB-8" target="aTokCerhoME2Jnov8dHB-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-8" value="12 V TO 3.3V CONVERTER" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.465;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aTokCerhoME2Jnov8dHB-9" target="aTokCerhoME2Jnov8dHB-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="190" as="sourcePoint" />
+            <mxPoint x="260" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="47" y="230" />
+              <mxPoint x="47" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="aTokCerhoME2Jnov8dHB-9" target="aTokCerhoME2Jnov8dHB-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="120" as="sourcePoint" />
+            <mxPoint x="294" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="45" y="120" />
+              <mxPoint x="45" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="120" as="sourcePoint" />
+            <mxPoint x="280" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="45" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-9" value="12 V&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="120" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-15" value="12 V&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=10;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="120" y="40" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="400" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aTokCerhoME2Jnov8dHB-21" value="5V&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;" parent="1" vertex="1">
+          <mxGeometry x="490" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
